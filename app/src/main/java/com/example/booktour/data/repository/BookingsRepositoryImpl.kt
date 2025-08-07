@@ -1,6 +1,7 @@
 package com.example.booktour.data.repository
 
 import com.example.booktour.data.dao.BookingsDAO
+import com.example.booktour.data.daoimpl.BookingsDAOImpl
 import com.example.booktour.data.model.Booking
 
 class BookingsRepositoryImpl(private val dao: BookingsDAO) {
